@@ -1,0 +1,59 @@
+/*
+6px 	0.5em 	50% 
+7px 	0.583em 	58.3% 
+8px 	0.667em 	66.7% 	
+9px 	0.75em 	75% 	
+10px 	0.833em 	83.3% 	
+11px 	0.917em 	91.7% 	
+12px 	1em 		100% 	
+13px 	1.083em 	108.3% 	
+14px 	1.167em 	116.7% 	
+15px 	1.25em 	125% 	
+16px 	1.333em 	133.3% 	
+17px 	1.417em 	141.7% 	
+18px 	1.5em 	150% 	
+19px 	1.583em 	158.3% 	
+20px 	1.667em 	166.7% 	
+21px 	1.75em 	175% 	
+22px 	1.833em 	183.3% 	
+23px 	1.917em 	191.7% 	
+24px 	2em 		200% 	
+*/
+
+
+/* clearfix */
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+/* for IE6 */
+* html .clearfix {
+	display:inline-block;
+}
+
+/* for IE7 */
+*+html .clearfix {
+	display:inline-block;
+}
+
+#nfctp_wrapper dl{
+	width: 700px;
+}
+
+#nfctp_wrapper dt{
+	width: 100px;
+	float: left;
+}
+
+#nfctp_wrapper dd{
+	width: 500px;
+	float: left;
+}
+
+#nfctp_wrapper .submit{
+	clear: both;
+}
+
